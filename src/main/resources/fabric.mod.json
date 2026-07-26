@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "chinesecanfly",
+  "version": "${version}",
+  "name": "ChineseCanFly",
+  "description": "客户端语言为简体中文/繁体中文/文言文时，在所有单人存档解锁飞行权限（任意游戏模式）。切换为其他语言后自动收回。",
+  "authors": [
+    "Tool_tingsu"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.chinesecanfly.ChineseCanFlyClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
